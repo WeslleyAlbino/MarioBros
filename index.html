@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mario Bros</title>
+</head>
+
+<body>
+    <div class="home">
+        <img src="./Imagens/Mario-Luigi-home.png" alt="home-mario">
+        <a> Home </a>
+        <a> Serviços </a>
+        <a> Cadastro </a>
+
+        <a href="https://www.linkedin.com/in/weslley-albino-545792ba/" target="_blank" class="linkedin">        
+        <img src="./Imagens/Linkedin-logo-png.png"> 
+        </a>
+
+    </div>
+    <div class="caixa-mae">
+        <div>
+            <img src="./Imagens/logo.png" alt="logo-mario-bros" class="logo">
+
+            <p class="p1"> 🔧 Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com Estilo! 🔧</p>
+
+            <p class="p2">
+                Você já se encontrou em uma situação de emergência com encanamento?<br>Vazamentos inesperados, canos
+                entupidos ou torneiras que não param de pingar?<br>Não se preocupe, porque estamos aqui para salvar o
+                dia!
+                <br>Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos<br> - Mario e Luigi!
+            </p>
+
+            <button class="botao" onclick="clikbotao()">Entre em Contato</button>
+        </div>
+
+        <div>
+            <img src="./Imagens/mario e Luigi.png" alt="logo-mario-e-luigi" class="img-mario-luigi">
+        </div>
+    </div>
+
+    <div class="caixa-video">
+        <video src="./Imagens/video.mp4" autoplay muted loop></video>
+        <div class="mascara-video"></div>
+    </div>
+
+    <a href="https://wa.me/5519997288592?text=Ol%C3%A1%2C+tudo+bem%3F+Estou+entrando+em+contato+referente+ao+site+do+Mario+Bros+que+voc%C3%AA+criou.+"
+        class="link-whats" target="_blank">
+        <img src="./Imagens/logo-whats.png" alt="link-whats">
+    </a>
+
+    <form 
+        class="formulario" 
+        action="https://formcarry.com/s/J16NF5ge-w8" 
+        method="POST" 
+        enctype="multipart/form-data">
+            <input placeholder="Seu nome" type="text" name="nome">
+            <input placeholder="Seu telefone" type="tel" name="telefone">
+            <textarea placeholder=" Descreva seu problema ..." class="caixa-texto" name="mensagem"></textarea>
+            <button class="bot-form" type="submit"> Solicitar Orçamento </button>
+    </form>
+
+    <div class="mascara-form" onclick="sairform()"></div>
+</body>
+
+<script src="scripts.js"> </script>
+
+</html>
