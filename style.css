@@ -119,6 +119,7 @@ video {
     font-size: 20px;
     margin-left: 20px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .home a:hover { 
